@@ -46,7 +46,7 @@ public class h1_soruları {
         Aşağıdaki örnekteki gibi
         String newString = "Hello";
         newString.concat("world"); dediğimizde Heap'te yeni HelloWorld isimli yeni bir nesne yaratır.
-        Bu olmasaydı veri bütünlüğü ve güvenliği sağlanamazdı.
+        String sınıfı immutable olmasaydı veri bütünlüğü ve güvenliği sağlanamazdı.
 
         Nasıl immutable class oluşturulur;
         1-Class final olmalı
